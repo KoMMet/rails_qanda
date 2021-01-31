@@ -1,24 +1,18 @@
-# README
+# Q and A app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+rails5.2 boostrap
 
-Things you may want to cover:
+## top
 
-* Ruby version
+![Top](https://user-images.githubusercontent.com/29003588/106383203-e84f6c80-6407-11eb-962f-057f97070391.png)
 
-* System dependencies
+## New
 
-* Configuration
+![New](https://user-images.githubusercontent.com/29003588/106383214-02894a80-6408-11eb-9b32-2b00c554cba4.png)
 
-* Database creation
+## detail
 
-* Database initialization
+![detail](https://user-images.githubusercontent.com/29003588/106383226-159c1a80-6408-11eb-87cc-83f389051751.png)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## edit
+![edit](https://user-images.githubusercontent.com/29003588/106383237-29478100-6408-11eb-86e5-a1ef6a3e1ab8.png)
