@@ -1,0 +1,26 @@
+<h2>Questions</h2>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-striped">
+            <thread class="thread-light">
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Menu</th>
+                </tr>
+            </thread>
+            <tbody>
+                <% @questions.each do |q| %>
+                    <tr>
+                        <td><%= q.id %></td>
+                        <td><%= link_to q.title, question_path(q) %></td>
+                        <td>[<%= link_to 'Edit', edit_question_path(q) %>] [<%= link_to 'Delete', question_path(q), method: :delete, data:{confirm: 'Are you sure?'} %>]</td>
+                    </tr>
+                <% end %>
+            </tbody>
+        </table>
+        <div>
+            <%= link_to 'New question', new_question_path %>
+        </div>
+    </div>
+</div>
