@@ -1,6 +1,7 @@
 # Q and A app
 
 rails5.2 boostrap
+http://133.125.50.61:3000
 
 ## top
 
